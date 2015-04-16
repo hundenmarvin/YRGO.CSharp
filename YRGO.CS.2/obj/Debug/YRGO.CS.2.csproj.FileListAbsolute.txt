@@ -1,6 +1,0 @@
-C:\Projects\YH C#\YRGO.CS.2\bin\Debug\YRGO.CS.2.exe.config
-C:\Projects\YH C#\YRGO.CS.2\bin\Debug\YRGO.CS.2.exe
-C:\Projects\YH C#\YRGO.CS.2\bin\Debug\YRGO.CS.2.pdb
-C:\Projects\YH C#\YRGO.CS.2\obj\Debug\YRGO.CS.2.exe
-C:\Projects\YH C#\YRGO.CS.2\obj\Debug\YRGO.CS.2.pdb
-C:\Projects\YH C#\YRGO.CS.2\obj\Debug\YRGO.CS.2.csprojResolveAssemblyReference.cache

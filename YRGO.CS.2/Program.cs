@@ -11,7 +11,7 @@ namespace YRGO.CS._2
         static void Main(string[] args)
         {
             //One();
-            //Two();
+            Two();
             //Three();
             //Four();
             //Five();
@@ -77,6 +77,7 @@ namespace YRGO.CS._2
 
             Console.WriteLine("Guess a number between 1 and 10.");
             var guess = 0;
+
             do
             {
                 guess = ReadNumber("> ");
