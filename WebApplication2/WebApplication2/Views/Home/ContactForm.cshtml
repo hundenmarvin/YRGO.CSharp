@@ -1,0 +1,38 @@
+﻿@model ContactFormModel
+@{
+    var message = ViewBag.Message ?? String.Empty;
+}
+
+@if (!String.IsNullOrEmpty(message))
+{
+    <span>@message</span>
+}
+@using (Html.BeginForm("ContactForm", "Home", FormMethod.Post))
+{
+    @Html.ValidationSummary()
+    @Html.LabelFor(x => x.Name)
+    @Html.TextBoxFor(x => x.Name)
+    @Html.ValidationMessageFor(x => x.Name)
+    <br />
+    @Html.LabelFor(x => x.Email)
+    @Html.TextBoxFor(x => x.Email)
+    @Html.ValidationMessageFor(x => x.Email)
+    <br />
+    @Html.LabelFor(x => x.Message)
+    @Html.TextAreaFor(x => x.Message)
+    <br />
+    <button type="submit">Send!</button>
+    
+}
+
+@using (Html.BeginForm("Test", "Home", FormMethod.Post))
+{
+    @Html.Label("Username")
+    @Html.TextBox("Username")
+    @Html.Label("Password")
+    @Html.TextBox("Password")
+    <br />
+    <button type="submit">Send!</button>
+}
+
+@Html.EditorForModel()
